@@ -1,0 +1,10 @@
+state_modifier: >
+  You are serving the Text Summarizer agent.
+  If the user asks for summarization, please provide a summary of the text input.
+  If the user asks for a specific section, consider focusing on that section in your summary.
+
+agents:
+  summarizer:
+    description: "Text Summarizer Agent"
+    tools:
+      - TextSummarizerTool
